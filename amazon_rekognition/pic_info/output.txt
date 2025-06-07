@@ -1,0 +1,39 @@
+
+Results
+Ice
+99.1 %
+Window
+98 %
+Outdoors
+97.6 %
+Nature
+97.3 %
+Computer
+95.9 %
+Electronics
+95.9 %
+Pc
+95.9 %
+Photography
+90 %
+Computer Hardware
+80.9 %
+Hardware
+80.9 %
+Monitor
+80.9 %
+Screen
+80.9 %
+Porthole
+61.2 %
+Laptop
+57.3 %
+Iceberg
+57.1 %
+
+Request
+{
+    "Image": {
+        "Bytes": "..."
+    }
+}
