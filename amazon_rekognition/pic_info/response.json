@@ -1,0 +1,276 @@
+{
+    "Labels": [
+        {
+            "Name": "Ice",
+            "Confidence": 99.1069107055664,
+            "Instances": [],
+            "Parents": [],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Nature and Outdoors"
+                }
+            ]
+        },
+        {
+            "Name": "Window",
+            "Confidence": 98.0682144165039,
+            "Instances": [],
+            "Parents": [],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Home and Indoors"
+                }
+            ]
+        },
+        {
+            "Name": "Outdoors",
+            "Confidence": 97.60128021240234,
+            "Instances": [],
+            "Parents": [],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Nature and Outdoors"
+                }
+            ]
+        },
+        {
+            "Name": "Nature",
+            "Confidence": 97.384521484375,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Outdoors"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Nature and Outdoors"
+                }
+            ]
+        },
+        {
+            "Name": "Computer",
+            "Confidence": 95.98194122314453,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Electronics"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Technology and Computing"
+                }
+            ]
+        },
+        {
+            "Name": "Electronics",
+            "Confidence": 95.98194122314453,
+            "Instances": [],
+            "Parents": [],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Technology and Computing"
+                }
+            ]
+        },
+        {
+            "Name": "Pc",
+            "Confidence": 95.98194122314453,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Computer"
+                },
+                {
+                    "Name": "Electronics"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Technology and Computing"
+                }
+            ]
+        },
+        {
+            "Name": "Photography",
+            "Confidence": 90.05636596679688,
+            "Instances": [],
+            "Parents": [],
+            "Aliases": [
+                {
+                    "Name": "Photo"
+                }
+            ],
+            "Categories": [
+                {
+                    "Name": "Hobbies and Interests"
+                }
+            ]
+        },
+        {
+            "Name": "Computer Hardware",
+            "Confidence": 80.96990203857422,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Electronics"
+                },
+                {
+                    "Name": "Hardware"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Technology and Computing"
+                }
+            ]
+        },
+        {
+            "Name": "Hardware",
+            "Confidence": 80.96990203857422,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Electronics"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Technology and Computing"
+                }
+            ]
+        },
+        {
+            "Name": "Monitor",
+            "Confidence": 80.96990203857422,
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.9983959197998047,
+                        "Height": 0.9995103478431702,
+                        "Left": 0.0016040843911468983,
+                        "Top": 0.0004895833553746343
+                    },
+                    "Confidence": 80.96990203857422
+                }
+            ],
+            "Parents": [
+                {
+                    "Name": "Computer Hardware"
+                },
+                {
+                    "Name": "Electronics"
+                },
+                {
+                    "Name": "Hardware"
+                },
+                {
+                    "Name": "Screen"
+                }
+            ],
+            "Aliases": [
+                {
+                    "Name": "Display"
+                },
+                {
+                    "Name": "Digital Display"
+                },
+                {
+                    "Name": "LCD Screen"
+                }
+            ],
+            "Categories": [
+                {
+                    "Name": "Technology and Computing"
+                }
+            ]
+        },
+        {
+            "Name": "Screen",
+            "Confidence": 80.96990203857422,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Electronics"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Technology and Computing"
+                }
+            ]
+        },
+        {
+            "Name": "Porthole",
+            "Confidence": 61.230777740478516,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Window"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Vehicles and Automotive"
+                }
+            ]
+        },
+        {
+            "Name": "Laptop",
+            "Confidence": 57.345211029052734,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Computer"
+                },
+                {
+                    "Name": "Electronics"
+                },
+                {
+                    "Name": "Pc"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Technology and Computing"
+                }
+            ]
+        },
+        {
+            "Name": "Iceberg",
+            "Confidence": 57.139404296875,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Ice"
+                },
+                {
+                    "Name": "Nature"
+                },
+                {
+                    "Name": "Outdoors"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Nature and Outdoors"
+                }
+            ]
+        }
+    ],
+    "LabelModelVersion": "3.0"
+}
